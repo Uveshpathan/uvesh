@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Login Form | CodingLab</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <style>
+    body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+         background-image: url('Screenshot 2024-04-25 231827.PNG');
+            background-size: cover; /* Cover the entire viewport */
+            background-position: left; /* Center the background image */
+
+  overflow: hidden;
+}
+::selection{
+  background: rgba(26,188,156,0.3);
+}
+.container{
+  max-width: 440px;
+  padding: 0 20px;
+  margin: 170px auto;
+}
+.wrapper{
+  width: 100%;
+  background:;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+}
+.wrapper .title{
+  height: 90px;
+  background: translate;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form{
+  padding: 30px 25px 25px 25px;
+}
+.wrapper form .row{
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.wrapper form .row input{
+  height: 100%;
+  width: 80%;
+  border:none;
+  color:white;
+  background-color:#1ABC9C;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border:##1ABC9C;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+form .row input:focus{
+            margin-left: 20px; /* Shift the form to the left */
+  border-color: #16a085;
+  box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+}
+form .row input::placeholder{
+  color: white;
+}
+.wrapper form .row i{
+  position: absolute;
+  width: 50px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  background: #1ABC9C;
+  border: 1px solid #1ABC9C;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form .pass{
+  margin: -8px 0 20px 0;
+}
+.wrapper form .pass a{
+  color: #1ABC9C;
+  font-size: 17px;
+  text-decoration: none;
+}
+.wrapper form .pass a:hover{
+  text-decoration: underline;
+}
+.wrapper form .button input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: ;
+  border: 1px solid #16a085;
+  cursor: pointer;
+}
+form .button input:hover{
+  background: #1ABC9C;
+}
+     button[type="submit"] {
+            background-color: #1ABC9C; /* Green color for button */
+            color: white;
+            padding: 10px 20px;
+			 width: 100px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+			 height: 50px;
+            font-size: 16px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #1abc9c; /* Dark green color on hover */
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="title"><span>Login </span></div>
+        <form action="HOME.HTML"  method="POST">
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Email or Phone" required>
+          </div>  <br>
+          <div class="row">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" required>
+          </div>
+		  <br>
+    <button type="submit" name="submit">Login</button>
+        </form>
+      </div>
+    </div>
+
+  </body>
+</html>
